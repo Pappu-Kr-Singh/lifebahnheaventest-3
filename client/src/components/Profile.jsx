@@ -21,7 +21,7 @@ const Profile = () => {
       setFetching(true);
       try {
         const response = await axios.get(
-          `https://lifebahnheaventest-2.vercel.app/api/v1/posts/${currentUser.data.user._id}`,
+          `https://lifebahnheaventest-3.vercel.app/api/v1/posts/${currentUser.data.user._id}`,
           {
             headers: {
               Authorization: `Bearer ${currentUser?.data.accessToken}`, // Use access token
